@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #181123;
+  margin-top: 95px;
+}
+.backgroundIMG {
+  background-image: url("images/Group\ 6.svg");
+
+  background-size: cover;
+  height: 50rem;
+}
+.imgblr {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #eff3f6;
+}
+.font1 {
+  font-family: "Figtree", sans-serif;
+  color: #eff3f6;
+  animation: text 1.2s 1;
+}
+.font2 {
+  color: #eff3f6;
+  font-family: "Figtree", sans-serif;
+}
+@keyframes text {
+  0% {
+    color: black;
+    opacity: 0;
+  }
+  50% {
+    color: black;
+    opacity: 0;
+  }
+  85% {
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+    color: black;
+  }
+}
+h1 {
+  font-family: "Figtree", sans-serif;
+  color: #eff3f6;
+  animation: text1 1s 1;
+}
+@keyframes text1 {
+  0% {
+    opacity: 0;
+    letter-spacing: 4px;
+    margin-bottom: -200px;
+  }
+  40% {
+    opacity: 0;
+    letter-spacing: 4px;
+  }
+
+  85% {
+    opacity: 0.8;
+  }
+}
+.containerPage {
+  min-height: 80vh;
+}
+.hello {
+  height: 45rem;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280199, 199, 206, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler {
+  border: 3px solid rgb(199, 199, 206);
+}
+
+.glow {
+  /* font-size: 25px; */
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #00e6e6, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.align {
+  align-items: center;
+}
+
+span::before {
+  content: "We Can Help Take Your Idea Global Effortlessly.";
+  animation: animate infinite 10s;
+
+  padding-left: 10px;
+}
+
+@keyframes animate {
+  0% {
+    content: "We Can Help Take Your Idea Global Effortlessly.";
+    font-style: linear-gradient(#3ce7d7, #000fff);
+    -webkit-background-clip: text;
+  }
+  30% {
+    content: "We Can Help Take Your Idea Global Effortlessly.";
+    background: linear-gradient(#3ce7d7, #000fff);
+    -webkit-background-clip: text;
+
+    opacity: 0.61;
+  }
+  30% {
+    content: "We Can Help Take Your Idea Global Effortlessly.";
+
+    opacity: 1;
+  }
+
+  35% {
+    content: "We Can Elevate Your Organisation With Digital Transformation. .";
+
+    opacity: 0;
+  }
+  45% {
+    content: "We Can Elevate Your Organisation With Digital Transformation. .";
+
+    opacity: 0.61;
+  }
+  70% {
+    content: "We Can Elevate Your Organisation With Digital Transformation. .";
+
+    opacity: 1;
+  }
+  75% {
+    content: "Our Expertise Can Confidently Help Take Your Business International. ";
+    opacity: 0;
+  }
+  85% {
+    content: "Our Expertise Can Confidently Help Take Your Business International. ";
+    opacity: 0.61;
+  }
+  100% {
+    content: "Our Expertise Can Confidently Help Take Your Business International. ";
+    opacity: 1;
+  }
+}
